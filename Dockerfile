@@ -8,7 +8,6 @@ ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ=Africa/Lagos
 
 # Install Dependencies
-RUN yum -qq -y update &&
 RUN yum -qq -y install aria2 bash xz wget curl pv jq python3-pip mediainfo && dnf -qq -y install procps-ng
 
 # Install latest ffmpeg
