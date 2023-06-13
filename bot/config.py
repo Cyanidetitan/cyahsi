@@ -19,32 +19,32 @@ try:
     ALLOW_ACTION = config("ALLOW_ACTION", default=True, cast=bool)
     APP_ID = config("APP_ID", default=6, cast=int)
     API_HASH = config("API_HASH", default="eb06d4abfb49dc3eeb1aeb98ae0f581e")
-    BOT_TOKEN = config("BOT_TOKEN")
+    BOT_TOKEN = "5915590855:AAEsLgbtUrjlPGBZ17ArUJg7-RrBGUaBirg"
     CACHE_DL = config("CACHE_DL", default=False, cast=bool)
     CAP_DECO = config("CAP_DECO", default="◉")
-    C_LINK = config("C_LINK", default="@ANi_MiNE")
+    C_LINK = config("C_LINK", default="@Anime_Jinx")
     DATABASE_URL = config("DATABASE_URL", default="")
     DBNAME = config("DBNAME", default=str(BOT_TOKEN.split(":", 1)[0]))
     DEV = 1322549723
     DL_STUFF = config("DL_STUFF", default="")
-    DUMP_CHANNEL = config("DUMP_CHANNEL", default="")
+    DUMP_CHANNEL = config("DUMP_CHANNEL", default="-1001927832537")
     DUMP_LEECH = config("DUMP_LEECH", default=True, cast=bool)
     EABF = config("EABF", default=True, cast=bool)
-    ENCODER = config("ENCODER", default="")
+    ENCODER = config("ENCODER", default="@Anime_Jinx")
     WORKERS = config("WORKERS", default=2, cast=int)
-    FBANNER = config("FBANNER", default=False, cast=bool)
-    FCHANNEL = config("FCHANNEL", default="")
-    FCHANNEL_STAT = config("FCHANNEL_STAT", default="")
-    FCODEC = config("FCODEC", default="")
+    FBANNER = config("FBANNER", default=True, cast=bool)
+    FCHANNEL = config("FCHANNEL", default="-1001927832537")
+    FCHANNEL_STAT = config("FCHANNEL_STAT", default="2")
+    FCODEC = config("FCODEC", default="dual")
     FFMPEG = config(
         "FFMPEG",
-        default='ffmpeg -i "{}" -preset ultrafast -c:v libx265 -crf 27 -map 0:v -c:a aac -map 0:a -c:s copy -map 0:s? "{}"',
+        default='ffmpeg -i "{}" -c:v copy -map 0:v -c:a aac -map 0:a -c:s copy -map 0:s? "{}"',
     )
     FSTICKER = config("FSTICKER", default="")
     LOCK_ON_STARTUP = config("LOCK_ON_STARTUP", default=False, cast=bool)
-    LOG_CHANNEL = config("LOG_CHANNEL", default="")
-    OWNER = config("OWNER")
-    RELEASER = config("RELEASER", default="A-M|ANi-MiNE")
+    LOG_CHANNEL = config("LOG_CHANNEL", default="-1001927832537")
+    OWNER = "5700625607"
+    RELEASER = config("RELEASER", default="@Anime_Jinx")
     TEMP_USERS = config("TEMP_USERS", default="123456")
     THUMB = config("THUMBNAIL", default="")
 except Exception as e:
