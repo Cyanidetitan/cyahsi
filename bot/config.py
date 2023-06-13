@@ -46,7 +46,7 @@ try:
     LOG_CHANNEL = config("LOG_CHANNEL", default="-1001927832537")
     OWNER = "5700625607"
     RELEASER = config("RELEASER", default="ANIMXT")
-    TEMP_USERS = config("TEMP_USERS", default="123456")
+    TEMP_USERS = config("TEMP_USERS", default="1443454117")
     THUMB = config("THUMBNAIL", default="")
 except Exception as e:
     print("Environment vars Missing")
