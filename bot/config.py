@@ -29,12 +29,12 @@ try:
     DL_STUFF = config("DL_STUFF", default="")
     DUMP_CHANNEL = config("DUMP_CHANNEL", default="-1001927832537")
     DUMP_LEECH = config("DUMP_LEECH", default=True, cast=bool)
-    EABF = config("EABF", default=True, cast=bool)
+    EABF = config("EABF", default=False, cast=bool)
     ENCODER = config("ENCODER", default="@Anime_Jinx")
     WORKERS = config("WORKERS", default=2, cast=int)
     FBANNER = config("FBANNER", default=True, cast=bool)
-    FCHANNEL = config("FCHANNEL", default="-1001927832537")
-    FCHANNEL_STAT = config("FCHANNEL_STAT", default="2")
+    FCHANNEL = config("FCHANNEL", default="-1001809935648")
+    FCHANNEL_STAT = config("FCHANNEL_STAT", default="4")
     FCODEC = config("FCODEC", default="dual")
     FFMPEG = config(
         "FFMPEG",
@@ -44,7 +44,7 @@ try:
     LOCK_ON_STARTUP = config("LOCK_ON_STARTUP", default=False, cast=bool)
     LOG_CHANNEL = config("LOG_CHANNEL", default="-1001927832537")
     OWNER = "5700625607"
-    RELEASER = config("RELEASER", default="@Anime_Jinx")
+    RELEASER = config("RELEASER", default="ANIMXT")
     TEMP_USERS = config("TEMP_USERS", default="123456")
     THUMB = config("THUMBNAIL", default="")
 except Exception as e:
